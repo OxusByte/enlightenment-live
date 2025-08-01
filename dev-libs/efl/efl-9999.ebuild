@@ -203,6 +203,7 @@ src_configure() {
 		$(meson_use sdl sdl)
 		$(meson_use sound audio)
 		$(meson_use systemd systemd)
+                $(meson_use elogind elogind)
 		$(meson_use tslib tslib)
 		$(meson_use zeroconf avahi)
 
